@@ -128,4 +128,4 @@ end
 #gem 'unicorn'
 
 #deploy assets to s3
-gem "asset_sync"
+# gem "asset_sync"
