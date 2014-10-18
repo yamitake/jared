@@ -3,6 +3,18 @@
 html{
   background: image-url("1.jpg") center center / cover no-repeat fixed;
 }
+h1{
+  text-align: center;
+  line-height: 100px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #fff;
+  text-shadow: 0 0px 2px #000;
+  position: absolute;
+  bottom: 30%;
+  left: 0;
+  width: 100%;
+}
 button {
   outline:none;
   display: inline-block;
