@@ -1,7 +1,7 @@
 module ApplicationHelper
   def default_meta_tags
     {
-      :title => 'キヅキ' ,
+      :title => 'キヅキ - 第5回 開発コンテスト24応募作品' ,
       :site => 'jared.herokuapp.com' ,
       :description => '勇気をだして声をかければ簡単に話すキッカケを作る事ができます。話しのキッカケ作りは驚くほど簡単です。' ,
       :keywords => '話し,クックパッド,キッカケ,開発コンテスト24,DK2,イノベーション賞ください' ,
