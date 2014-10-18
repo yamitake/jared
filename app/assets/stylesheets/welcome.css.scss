@@ -19,7 +19,7 @@ h1{
   color: #fff;
   text-shadow: 0 0px 2px #000;
   position: absolute;
-  bottom: 30%;
+  top: 42%;
   left: 0;
   width: 100%;
 }
@@ -30,7 +30,7 @@ h2{
   color: #fff;
   text-shadow: 0 0px 2px #000;
   position: absolute;
-  top: 40%;
+  top: 38.5%;
   left: 0;
   width: 100%;
 }
@@ -50,14 +50,14 @@ button {
   display: inline-block;
   margin: auto;
   position: absolute;
-  bottom: 50%;
+  bottom: 5%;
   left: 50%;
-  margin: -50px 0 0 -50px;
+  margin: -40px 0 0 -40px;
   text-align: center;
   cursor: pointer;
   border-radius:100%;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   border: solid 2px #fff;
   background: none;
   color: #fff;
@@ -68,12 +68,12 @@ button {
 }
 
 #lean_overlay {
-    position: fixed;
-    z-index:100;
-    top: 0px;
-    left: 0px;
-    height:100%;
-    width:100%;
-    background: #000;
-    display: none;
+  position: fixed;
+  z-index:100;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+  background: #000;
+  display: none;
 }
