@@ -5,7 +5,9 @@ html
     = stylesheet_link_tag "application", :media => "all", "data-turbolinks-track" => true
     = javascript_include_tag "application", "data-turbolinks-track" => true
     = csrf_meta_tags
+    = display_meta_tags(default_meta_tags)
   body*{ class: ["bijin-wafuku" , "bijin-fune" , "bijin-kouen" , "bijin-mizugi"].sample}
+    = render 'shared/google_analytics'
     = yield
     = content_for :javascript
     = yield :bottom_script
